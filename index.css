@@ -1,0 +1,103 @@
+
+@font-face{
+        font-family: cursedTimer;
+        src: url(CursedTimerUlil-Aznm.ttf);
+      
+
+}
+
+::before, :after{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+
+
+}
+
+
+.container {
+    margin: 33vh auto;
+    padding-top: 2rem;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    padding-right: 3em;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #1B244A;
+
+}
+.home{
+    margin-right: 2em;
+}
+
+
+#home{
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 20px auto;
+
+
+}
+
+#guests{
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.live-scores {
+    width: 155px;
+    background-color: black;
+    text-align: center;
+    color: #F94F6D;
+    font-family: cursedTimer;
+    font-weight: 400;
+    font-size: 90px;
+    padding: 1rem .5rem;
+    margin: 25px 0;
+    border-radius: 4px;
+}
+
+
+
+
+.button-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: cursedTimer;
+    margin: 0 auto;
+    
+}
+
+.btn{
+    width: 31%;
+    color: #9AABD8;
+    line-height: 27.81px;
+    weight: 400;
+    background: #1B244A;
+    border-radius: 4px;
+    height: 2.81em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
